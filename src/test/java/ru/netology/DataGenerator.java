@@ -6,6 +6,8 @@ import java.util.Locale;
 import java.util.Random;
 
 import com.github.javafaker.Faker;
+import lombok.Getter;
+import lombok.Value;
 
 public class DataGenerator {
         private DataGenerator() {
@@ -50,36 +52,11 @@ public class DataGenerator {
         }
     }
 
+    @Value
     public static class UserInfo {
         String city;
         String name;
-
-        public String getCity() {
-            return city;
-        }
-
-        public void setCity(String city) {
-            this.city = city;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public String getPhone() {
-            return phone;
-        }
-
-        public void setPhone(String phone) {
-            this.phone = phone;
-        }
-
         String phone;
-
     }
 
 }
