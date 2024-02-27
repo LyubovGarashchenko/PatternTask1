@@ -43,7 +43,6 @@ public class DataGenerator {
     }
 
     public static class Registration {
-        public static Registration Registrator;
         private Registration() {
         }
 
