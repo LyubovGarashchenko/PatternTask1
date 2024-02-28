@@ -10,7 +10,7 @@ import lombok.Getter;
 import lombok.Value;
 
 public class DataGenerator {
-        private DataGenerator() {
+    private DataGenerator() {
     }
 
     static String generateDate(int shift) {

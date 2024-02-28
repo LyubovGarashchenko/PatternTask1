@@ -49,5 +49,4 @@ public class PatternTask1Test {
         $("[data-test-id='success-notification'] .notification__content")
                 .shouldHave(exactText("Встреча успешно запланирована на " + secondMeetingDate)).shouldBe(visible);
     }
-
 }
